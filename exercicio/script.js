@@ -12,6 +12,8 @@ function dados(evento){
 function botao (){
     if(digitar.value === ""){
         alert("Digite alguma coisa!")
+    }else{
+        console.log(digitar.value)
     }
 }
 
